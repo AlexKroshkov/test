@@ -40,19 +40,27 @@ a {
 }
 
 .header__form {
-  position: relative;
+  max-width: 768px;
+  width: 100%;
+  padding: 0 10px;
+
 }
 
 .header__form img {
   position: absolute;
   top: 9px;
-  left: 3px;
+  left: 14px;
+}
+
+.header__form-inner {
+  position: relative;
 }
 
 .header__input {
   width: 763px;
   height: 40px;
-  padding-left: 30px;
+  width: 100%;
+  padding-left: 39px;
   font-size: 14px;
   line-height: 16px;
   color: #bbc4d6;
@@ -184,10 +192,21 @@ a {
   .header__container {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
   }
 
   .header__input {
     border-radius: 0px;
     border-top: 1px solid #bbc4d6;
+  }
+
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .user-header {
+    display: block;
   }
 }
