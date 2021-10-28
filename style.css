@@ -104,6 +104,10 @@ a {
   align-items: center;
 }
 
+.user-header {
+  display: none;
+}
+
 /* HERO section */
 
 .hero {
@@ -173,7 +177,9 @@ a {
     gap: 20px;
   }
 
-  
+  .header-user {
+    display: none;
+  }
   
   .header__container {
     display: flex;
